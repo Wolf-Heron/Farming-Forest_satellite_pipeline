@@ -10,12 +10,13 @@ _ Echelle : une image à la fois
 Liste de modules Python necessaires pour coder la chaîne de traitement :
 
 Besoin	                     --  Outil
-Gestion env + deps	         --  uv (rapide) ou poetry
-Lecture raster	             --  rasterio
-Calcul array	             --  numpy, xarray
-Géométries vectorielles	     --  geopandas, shapely
-Téléchargement Sentinel	     --  sentinelsat, pystac-client
-Viz	                         -- matplotlib, folium
-Tests	                     --  pytest
-Lint/format	                 --  ruff (remplace black+flake8+isort)
-Typage	                     --  mypy
+
+Gestion env + deps	         --  uv (rapide) ou poetry         OK
+Lecture raster	             --  rasterio                      OK
+Calcul array	             --  numpy, xarray                 OK
+Géométries vectorielles	     --  geopandas, shapely            OK
+Téléchargement Sentinel	     --  sentinelsat, pystac-client    OK
+Viz	                         --  matplotlib, folium            OK
+Tests	                     --  pytest                        OK
+Lint/format	                 --  ruff                          OK
+Typage	                     --  mypy                          OK
